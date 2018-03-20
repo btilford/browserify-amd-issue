@@ -1,0 +1,29 @@
+{
+  "name": "@example/browserify-amd-issue",
+  "version": "0.0.0",
+  "description": "Example issue using browserify with AMD/RequireJS",
+  "main": "Gruntfile.js",
+  "repository": "git@github.com:btilford/browserify-amd-issue.git",
+  "author": "Ben Tilford <ben.tilford@bodybuilding.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "requirejs": "^2.3.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-amd": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^8.0.0",
+    "deamdify": "^0.3.0",
+    "decomponentify": "^0.1.0",
+    "deglobalify": "^0.2.0",
+    "dependify": "^0.0.1",
+    "grunt": "^1.0.2",
+    "grunt-browserify": "^5.2.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-requirejs": "^1.0.0",
+    "load-grunt-config": "^0.19.2"
+  }
+}
